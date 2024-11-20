@@ -93,6 +93,6 @@ export const CartProvider = ({ children }) => {
     cartCount,
     cartTotal,
   };
-  console.log(value.isCartOpen);
+  // console.log(value.isCartOpen);
   return <CartContext.Provider value={value}>{children}</CartContext.Provider>;
 };
